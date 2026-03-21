@@ -21,7 +21,7 @@ const {
 
 // https://astro.build/config
 const config = defineConfig({
-	site: 'https://spectre.lou.gg',
+	site: 'https://myer.wtf',
 	output: 'static',
 	integrations: [
 		expressiveCode({
@@ -30,15 +30,13 @@ const config = defineConfig({
 		mdx(),
 		sitemap(),
 		spectre({
-			name: 'Spectre',
+			name: 'Myer Cheng',
 			openGraph: {
 				home: {
-					title: 'Spectre',
-					description: 'A minimalistic theme for Astro.',
+					title: 'Home'
 				},
 				blog: {
-					title: 'Blog',
-					description: 'News and guides for Spectre.',
+					title: 'Blog'
 				},
 				projects: {
 					title: 'Projects',
@@ -57,9 +55,6 @@ const config = defineConfig({
 			},
 		}),
 	],
-	adapter: node({
-		mode: 'standalone',
-	}),
 });
 
 export default config;
