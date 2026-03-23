@@ -21,10 +21,10 @@ const {
 
 // https://astro.build/config
 const config = defineConfig({
-	site: 'https://myerDOT.github.io',
-	base: '/website',
+	site: 'https://www.myer.wtf',
+	base: '',
 	output: 'static',
-	trailingSlash: 'always',
+	trailingSlash: 'never',
 	integrations: [
 		expressiveCode({
 			themes: [spectreDark],
