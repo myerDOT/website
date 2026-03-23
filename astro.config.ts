@@ -56,6 +56,7 @@ const config = defineConfig({
 				lang: GISCUS_LANG,
 			},
 		}),
+
 	],
 });
 
