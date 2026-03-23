@@ -22,6 +22,7 @@ const {
 // https://astro.build/config
 const config = defineConfig({
 	site: 'https://myerDOT.github.io',
+	base: '/website',
 	output: 'static',
 	integrations: [
 		expressiveCode({
