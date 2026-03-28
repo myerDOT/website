@@ -35,16 +35,16 @@ const config = defineConfig({
 			name: 'Myer Cheng',
 			openGraph: {
 				home: {
-					title: 'Myer Cheng',
-					description: 'Home page'
+					title: '',
+					description: ''
 				},
 				blog: {
-					title: 'Blog',
-					description: 'Blog'
+					title: '',
+					description: ''
 				},
 				projects: {
-					title: 'Projects',
-					description: 'Projects'
+					title: '',
+					description: ''
 				},
 			},
 			giscus: {
